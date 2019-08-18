@@ -4,10 +4,16 @@
   <head>
   </head>
   <body>
-    <h1>{{ word1 }}</h1>
-    <h1>{{ word2 }}</h1>
-    <form action="/" method="get">
-      <button name="get_value" value="from get">次のお題</button>
-    </form>
+    <div style="position:relative; top:200px">
+      <center>
+        <font size="7" >{{ word1 }}</font><br>
+        <h1>{{ word2 }}</h1>
+      </center>
+    </div>
+    <div style="position:absolute; top:400px; left:50%;">
+      <form action="/" method="get">
+        <button name="get_value" value="from get">次のお題</button>
+      </form>
+    </div>
   </body>
 </html>
